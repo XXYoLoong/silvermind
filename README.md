@@ -2,6 +2,8 @@
 
 SilverMind 是一个面向适老化认知训练场景的互动训练系统，包含长期记忆训练、实体立体迷宫训练和方步训练三个模块。前端使用 React + Vite，后端使用 Node.js + Express，并通过后端代理安全调用 DeepSeek 与千问 / DashScope。
 
+对外介绍、技术亮点和宣传文稿见 `PUBLIC_INTRODUCTION.md`。
+
 ## 功能
 
 - 长期记忆训练：生成旧物件题目、图片、提示线索与语音播报。
@@ -38,7 +40,7 @@ DEEPSEEK_API_KEY=
 DASHSCOPE_API_KEY=
 ```
 
-更详细的远程调用复现步骤见 `REMOTE_API_KEYS.md`。
+远程部署时请在服务器私有环境变量或受保护的配置系统中填写密钥，不要把真实密钥、服务器地址或内部运维文档提交到公开仓库。
 
 ## 开源协议
 
